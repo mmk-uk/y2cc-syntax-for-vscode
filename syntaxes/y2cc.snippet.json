@@ -38,6 +38,10 @@
 	"return": {
 		"prefix": "return",
 		"body": "[RETURN]"
+	},
+	"func": {
+		"prefix": "func",
+		"body": "【】"
 	}
 	
 }

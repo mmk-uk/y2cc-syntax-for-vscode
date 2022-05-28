@@ -10,6 +10,9 @@
 		},
 		{
 			"include": "#comment2"
+		},
+		{
+			"include": "#function"
 		}
 	],
 	"repository": {
@@ -24,10 +27,13 @@
 			"match": "#.*"
 		},
 		"comment2":{
-			"name": "variable.other.example",
+			"name": "variable.other.y2cc",
 			"match": "@.*"
+		},
+		"function":{
+			"name": "entity.name.function.y2cc",
+			"match": "【.*】"
 		}
-		
 	},
 	"scopeName": "source.chat"
 }
