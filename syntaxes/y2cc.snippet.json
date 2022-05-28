@@ -1,0 +1,43 @@
+{
+	"start": {
+		"prefix": "start",
+		"body": "[START]\n\n[END]"
+	},
+	"if": {
+		"prefix": "if",
+		"body": "[IF]\n\n[ENDIF]"
+	},
+	"ifel": {
+		"prefix": "ifel",
+		"body": "[IF]\n\n[ELSE]\n\n[ENDIF]"
+	},
+	"do": {
+		"prefix": "do",
+		"body": "[DO]\n\n[ENDDO]"
+	},
+	"while": {
+		"prefix": "while",
+		"body": "[WHILE]\n\n[ENDWHILE]"
+	},
+	"switch": {
+		"prefix": "switch",
+		"body": "[SWITCH]\n\n[CASE]\n\n[DEFAULT]\n\n[ENDSWITCH]"
+	},
+	"case": {
+		"prefix": "case",
+		"body": "[CASE]"
+	},
+	"break": {
+		"prefix": "break",
+		"body": "[BREAK]"
+	},
+	"continue": {
+		"prefix": "continue",
+		"body": "[CONTINUE]"
+	},
+	"return": {
+		"prefix": "return",
+		"body": "[RETURN]"
+	}
+	
+}

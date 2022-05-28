@@ -1,0 +1,32 @@
+{
+    "name": "y2ccsyntax",
+    "displayName": "Y2CC Syntax",
+    "description": "Provide YacⅡChartConverter syntax for Visual Studio Code",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.67.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "y2cc",
+            "aliases": ["y2ccscript", "y2cc"],
+            "extensions": [".chat"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "y2cc",
+            "scopeName": "source.chat",
+            "path": "./syntaxes/y2cc.tmLanguage.json"
+        }],
+        "snippets": [
+            {
+                "language": "y2cc",
+                "scopeName": "source.chat",
+                "path": "./syntaxes/y2cc.snippet.json"
+            }
+        ]
+    }
+}

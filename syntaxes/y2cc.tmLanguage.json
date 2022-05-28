@@ -1,0 +1,33 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "y2ccscript",
+	"patterns": [
+		{
+			"include": "#keywords"
+		},
+		{
+			"include": "#comment"
+		},
+		{
+			"include": "#comment2"
+		}
+	],
+	"repository": {
+		"keywords": {
+			"patterns": [{
+				"name": "keyword.control.y2cc",
+				"match": "\\[(START|IF|ELSE|DO|WHILE|SWITCH|CASE|DEFAULT|BREAK|CONTINUE|END|ENDIF|ENDDO|ENDWHILE|ENDSWITCH)\\]"
+			}]
+		},
+		"comment":{
+			"name": "comment.line.y2cc",
+			"match": "#.*"
+		},
+		"comment2":{
+			"name": "variable.other.example",
+			"match": "@.*"
+		}
+		
+	},
+	"scopeName": "source.chat"
+}
