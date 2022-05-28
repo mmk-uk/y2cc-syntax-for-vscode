@@ -16,7 +16,7 @@
 		"keywords": {
 			"patterns": [{
 				"name": "keyword.control.y2cc",
-				"match": "\\[(START|IF|ELSE|DO|WHILE|SWITCH|CASE|DEFAULT|BREAK|CONTINUE|END|ENDIF|ENDDO|ENDWHILE|ENDSWITCH)\\]"
+				"match": "\\[(START|IF|ELSE|DO|WHILE|SWITCH|CASE|DEFAULT|BREAK|CONTINUE|RETURN|END|ENDIF|ENDDO|ENDWHILE|ENDSWITCH)\\]"
 			}]
 		},
 		"comment":{
