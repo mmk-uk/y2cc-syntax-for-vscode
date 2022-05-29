@@ -11,6 +11,10 @@
 		"prefix": "ifel",
 		"body": "[IF]\n\n[ELSE]\n\n[ENDIF]"
 	},
+	"else": {
+		"prefix": "else",
+		"body": "[ELSE]"
+	},
 	"do": {
 		"prefix": "do",
 		"body": "[DO]\n\n[ENDDO]"
